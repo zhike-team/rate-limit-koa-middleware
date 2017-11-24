@@ -1,0 +1,25 @@
+{
+  "name": "rate-limit-koa-middleware",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "engines" : {
+    "node" : ">=8.0"
+  },
+  "engineStrict" : true,
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "ioredis": "^3.1.4",
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "mocha": "^3.5.0",
+    "power-assert": "^1.4.4",
+    "redis": "^2.8.0",
+    "supertest": "^3.0.0"
+  }
+}
